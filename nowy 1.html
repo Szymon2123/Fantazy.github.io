@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FANTAZY Find Your Style!</title>
+<link rel="stylesheet" href="css.css"> 
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+          <h1 class="logo"><a href="#"><img src="fantazzy.png" alt="Logo Sklepu"></a></h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="bluzy.html">BLUZY</a></li>
+                <li><a href="t-shirty.html">T-SHIRTY</a></li>
+                <li><a href="spodnie.html">SPODNIE</a></li>
+				<li><a href="akcesoria.html">AKCESORIA</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strona z tłem filmowym</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Zapobiega pojawianiu się pasków przewijania */
+	opacity: 70%;
+  }
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+  }
+</style>
+</head>
+<body>
+<video autoplay loop muted id="video-background">
+  <source src="WELCOM.mp4" type="video/mp4">
+  <!-- Tutaj możesz dodać inne źródła wideo, np. WebM lub Ogg -->
+  Twoja przeglądarka nie obsługuje elementu video.
+</video>
+<!-- Tutaj możesz umieścić treść swojej strony -->
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGMA Find Your Style!</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Zapobiega pojawianiu się pasków przewijania */
+  }
+
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+  }
+
+  #second-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999; /* Ustawienie niższego indeksu z-niższy priorytet */
+    opacity: 0.50; /* Dostosowanie przezroczystości drugiego wideo */
+  }
+</style>
+</head>
+<body>
+
+<video autoplay loop muted id="video-background">
+  <source src="WELCOM.mp4" type="video/mp4">
+  <!-- Tutaj możesz dodać inne źródła wideo, np. WebM lub Ogg -->
+  Twoja przeglądarka nie obsługuje elementu video.
+</video>
+
+<video autoplay loop muted id="second-video">
+  <source src="DRUGIE_WIDEO.mp4" type="video/mp4">
+  <!-- Tutaj możesz dodać inne źródła wideo, np. WebM lub Ogg -->
+  Twoja przeglądarka nie obsługuje elementu video.
+</video>
+
+<!-- Tutaj możesz umieścić treść swojej strony -->
+
+</body>
+</html>
+
+<style>
+  #second-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999; /* Ustawienie niższego indeksu z-niższy priorytet */
+    opacity: 0.5; /* Krycie drugiego wideo */
+  }
+</style>
+

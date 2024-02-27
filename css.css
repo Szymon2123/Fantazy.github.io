@@ -1,0 +1,143 @@
+body {
+    background-image: url('tlo glowne.pn'); /* Zmienić na ścieżkę do własnego obrazka */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+ /* Usunięcie kropek */
+.navbar ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+/* Usunięcie podkreślenia */
+.navbar ul li a {
+    text-decoration: none; 
+}
+
+.navbar ul li a {
+    text-decoration: none; 
+    color: white; /* Kolor napisów */
+    transition: color 0.3s; /* Dodanie efektu przejścia dla koloru tekstu */
+}
+
+.navbar ul li a:hover {
+    color: #fff; /* Zmiana koloru tekstu na biały po najechaniu myszką */
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Dodanie efektu cienia */
+}
+
+/* LOGO */
+.logo img {
+    max-width: 300px; 
+    max-height: 200px; 
+}
+
+/* przesunięcie napisow w bok bluza spodnie */
+.navbar ul li {
+    margin-left: -500px; /* przesunięcie w lewo */
+	 margin-top: 25px; /* oddzeilenie napisow */
+}
+
+/* Przesunięcie napisów BLUZY w górę  */
+.navbar ul {
+	position: absolute; /* Ustawienie pozycji absolutnej dla napisów */
+    list-style-type: none;
+    padding: 0;
+    margin-top: -350px; /* Przesunięcie napisów BLUZY w górę o 10 pikseli */
+}
+
+/* Ustawienie czcionki napisu i koloru napisow bluzy */
+.navbar ul li a {
+    font-size: 23px; /* Ustawienie wielkości czcionki */
+    font-family: Gingham; /* Ustawienie rodziny czcionek */
+	color: 	#FFFAFA; /* Ustawienie koloru tekstu */
+}
+
+.logo {
+    margin-top: 50-px; /* Przesunięcie logo w górę o 20 pikseli */
+    margin-left: 100px; /* Przesunięcie logo w lewo o 20 pikseli */
+}
+
+/* Zmiana koloru tekstu po najechaniu */
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+	font-weight: bold;
+    font-family: Antry Sans;
+    color: #FFFAFA; /* Domyślny kolor tekstu */
+    transition: color 0.3s; /* Dodanie efektu przejścia dla koloru tekstu */
+}
+
+.navbar ul li a:hover {
+    color: #fff; /* Zmiana koloru tekstu na biały po najechaniu myszką */
+	
+
+}
+
+.navbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 10px 0;
+}
+
+.navbar {
+    position: absolute;
+    text-align: center; /* Wysrodkowanie tekstu w poziomie */
+}
+
+body {
+    background-color: black; /* Ustawienie tła na czarne */
+}
+
+
+
+
+.header {
+    position: relative; /* Ustawienie pozycji względem rodzica */
+}
+
+.logo {
+    position: absolute; /* Ustawienie pozycji absolutnej */
+    top: -140px; /* Odległość od góry */
+    left: -248px; /* Odległość od lewej krawędzi */
+}
